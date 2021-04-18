@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(29, 28, 28, 0.400), rgba(53, 51, 51, 0.400)), url('../img/BG1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.navbar-brand{
+    font-size: 25px;
+    margin: 0px 20px;
+    font-weight: bolder;
+    filter: invert();
+}
+.nav-item{
+    padding: 0px 8px 0px 8px;
+}
+.nav-link{
+    color: #f7f2f2!important;
+    font-family: 'Noto Sans JP',    sans-serif;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: rgb(255, 249, 249);
+    background-color: rgb(206, 202, 202,0.3);
+    font-size: 18px;
+    border-radius: 8px;
+    margin: 2px;
+
+}
+/* ........... */
+
+.hero-content{
+    height: 90vh;
+}
+.head-main{
+    margin-top: 40px;
+}
+.head-main h1{
+    margin: 10px;
+    font-size: 70px;
+    color: wheat;
+}
+.head-sub{
+    margin: 10px;
+}
+.head-sub h1{
+    font-size: 40px;
+    color: white;
+}
+.head-contant h1{
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.btn{
+    text-align: center;
+}
+.btn2{
+    padding: 5px 15px;
+    margin: 30px 10px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(8, 5, 184, 0.993);
+}
+.btn2:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 102, 0, 0.747);
+}
+
+footer{
+    background-color:  #ffffff;
+}
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+.social-icons{
+    padding: 0px;
+}
+.contact{
+  font-size: 17px;
+  font-weight: bold;
+} 
+.github{
+    color: #24292e;
+}
+
+.linkedin{
+    color: #0077b5;
+}
+.github:hover{
+    color: #ff0000;
+}
+
+.linkedin:hover{
+    color: #020c92;
+}
+
+table{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 3px;
+    text-align: center;
+    font-weight: 500;
+} 
+td,th{
+    padding: 7px 100px;
+}
+#row1{
+    font-size: 17px;
+    color: white;
+    background-color: rgba(2, 2, 2, 0.726);
+}
+#transfer-btn{
+   display: none;
+}
+h6,h5,h4,input{
+    color: white;
+}
+.modal-content{
+    background-color: rgb(26, 24, 24);
+    border-color: white;
+}
+hr{
+    color: white;
+}
